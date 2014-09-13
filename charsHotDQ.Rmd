@@ -1068,5 +1068,5 @@ sessionInfo()
 
 Created as an [interactive document](http://rmarkdown.rstudio.com/authoring_shiny.html) using [RStudio](http://www.rstudio.com/).
 
-Code available via GitHub.
+Code available via GitHub [here](https://github.com/lcolladotor/DnD5e-HotDQ-chars).
 
