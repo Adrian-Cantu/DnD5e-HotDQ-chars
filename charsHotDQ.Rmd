@@ -1045,16 +1045,16 @@ renderDataTable(
 
 ```
 
-# Export data
-
-```{r 'export'}
-save(chars, file = "chars.Rdata")
-```
-
 
 # Reproducibility
 
-Date generated
+```{r 'export', echo = FALSE}
+save(chars, file = "chars.Rdata")
+```
+
+Get the data [here](https://github.com/lcolladotor/DnD5e-HotDQ-chars/blob/master/chars.Rdata).
+
+Date this document was generated:
 
 ```{r 'date', echo = FALSE}
 Sys.time()
