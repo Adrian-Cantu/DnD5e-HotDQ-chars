@@ -1015,7 +1015,7 @@ inputPanel(
 )
 
 renderDataTable(
-    subset(chars, variable %in% input$var),
+    subset(chars, variable %in% input$var)[, !is.na(c("Character", ifelse(length(input$var) > 1, "variable", NA), "value"))],
     options = list(iDisplayLength = 25),
 )
 ```
